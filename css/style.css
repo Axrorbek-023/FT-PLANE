@@ -170,9 +170,129 @@ span{
     border-top: 5px dashed rgb(79, 78, 78);
 }
 .platform button{
+    border: none;
     padding: 14px 45px;
     color: white;
     border-radius: 56px;
     background: #313EF7;
     box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
 }
+
+/* book */
+
+.book{
+    margin-top: 100px;
+    background-color: #010223;
+    padding: 50px 0;
+    h2{
+        color: white;
+        width: 496px;
+        margin-bottom: 16px;
+    }
+    p{
+        color: white;
+        width: 496px;
+    }
+}
+.book__div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* best */
+
+.best{
+    margin-top: 100px;
+    h2{
+        margin-left: 412px;
+        color: #011736;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 0.6px;
+        text-transform: capitalize;
+        margin-bottom: 40px;
+    }
+    img{
+        margin-left: -50px;
+    }
+}
+
+/* costumer */
+
+.costumer img{
+    margin-top: -100px;
+}
+
+/* make */
+
+.make{
+    h2{
+        color: #011736;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 150%; 
+        letter-spacing: 0.6px;
+        text-transform: capitalize;
+        margin-bottom: 40px;
+    }
+    img{
+        text-align: center;
+    }
+}
+
+/* letter */
+
+.letter{
+    background: rgba(49, 62, 247, 0.05);
+    margin-top: 100px;
+    padding: 100px;
+    h2{
+        margin-left: 350px;
+        text-align: center;
+        width: 534px;
+        color: #011736;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 150%;
+        letter-spacing: 0.6px;
+        text-transform: capitalize;
+    }
+    .letter__btn{
+        background-color: white;
+        border-radius: 150px;
+        display: inline-block;
+        overflow: hidden;
+        margin-left: 450px;
+        margin-top: 40px;
+    }
+    input{
+        border-radius: 150px;
+        padding: 11px 20px;
+        border: none;
+        background: #FFF;
+        box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+    }
+    button{
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 56px;
+        background: #313EF7;    
+    }
+}
+
+/* footer */
+
+.footer{
+    background: url('../img/map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    img{
+        margin-top: 100px;
+        margin-bottom: 133px;
+    }
+}
+
